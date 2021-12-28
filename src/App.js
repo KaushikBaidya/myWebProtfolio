@@ -1,7 +1,9 @@
+import Intro from './components/intro/Intro'
+
 function App() {
   return (
     <div>
-      <h1>this is my portfolio</h1>
+      <Intro />
     </div>
   )
 }

@@ -1,0 +1,11 @@
+.intro {
+  display: flex;
+  height: 100vh;
+  background-color: cadetblue;
+}
+.intro-left {
+  flex: 5;
+}
+.intro-right {
+  flex: 3;
+}
