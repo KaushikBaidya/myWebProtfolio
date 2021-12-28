@@ -1,7 +1,7 @@
 .intro {
   display: flex;
   height: 100vh;
-  background-color: rgba(186, 233, 235, 0.664);
+  background-color: rgba(238, 254, 255, 0.664);
 }
 /*intro left css*/
 .intro-left {
@@ -31,7 +31,7 @@
 }
 .i-title-wrapper {
   height: 100%;
-  animation: move 7s ease-in-out infinite alternate;
+  animation: move 10s ease-in-out infinite alternate;
 }
 .i-title-item {
   height: 50px;
@@ -42,18 +42,18 @@
   align-items: center;
 }
 @keyframes move {
-  25% {
+  33% {
     transform: translateY(-50px);
   }
-  50% {
+  66% {
     transform: translateY(-100px);
   }
-  75% {
+  99% {
     transform: translateY(-150px);
   }
-  100% {
+  /* 100% {
     transform: translateY(-200px);
-  }
+  } */
 }
 .i-desc {
   font-size: 20px;
@@ -62,4 +62,9 @@
 /*intro right css*/
 .intro-right {
   flex: 3;
+}
+.i-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
