@@ -1,0 +1,57 @@
+.about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgba(238, 254, 255, 0.664);
+}
+/* about left */
+.about-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+.a-card.bg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: #333;
+}
+
+.a-card {
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.a-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* about right */
+.about-right {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.a-title {
+  font-weight: 700;
+}
+
+.a-sub {
+  margin: 20px 0px;
+  font-size: 20px;
+}
+
+.a-desc {
+  font-weight: 300;
+  text-align: justify;
+  font-size: 16px;
+}
