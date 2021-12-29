@@ -31,29 +31,29 @@
 }
 .i-title-wrapper {
   height: 100%;
-  animation: move 10s ease-in-out infinite alternate;
+  animation: move 10s ease-in-out infinite alternate-reverse;
 }
 .i-title-item {
   height: 50px;
   font-size: 30px;
   font-weight: 700;
-  color: rgb(210, 105, 30);
+  color: rgb(214, 92, 5);
   display: flex;
   align-items: center;
 }
 @keyframes move {
-  33% {
+  25% {
     transform: translateY(-50px);
   }
-  66% {
+  50% {
     transform: translateY(-100px);
   }
-  99% {
+  75% {
     transform: translateY(-150px);
   }
-  /* 100% {
+  100% {
     transform: translateY(-200px);
-  } */
+  }
 }
 .i-desc {
   font-size: 20px;
