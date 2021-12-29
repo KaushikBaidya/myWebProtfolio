@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import Me from '../../images/me.jpg'
+import Me from '../../images/me-removebg-preview.png'
 
 const Intro = () => {
   return (
@@ -27,6 +27,7 @@ const Intro = () => {
         </div>
       </div>
       <div className="intro-right">
+        <div className="i-bg"></div>
         <img src={Me} alt="profile" className="i-img" />
       </div>
     </div>
