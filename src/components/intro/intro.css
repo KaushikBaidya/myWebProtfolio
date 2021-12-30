@@ -1,7 +1,6 @@
 .intro {
   display: flex;
   height: 100vh;
-  background-color: rgba(238, 254, 255, 0.664);
 }
 /*intro left css*/
 .intro-left {
